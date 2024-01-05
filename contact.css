@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.form-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('makati.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* CONTACT */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --shawdow: 0.5rem 1rem rgba(0, 0, 0, .05);
+    --blue: #0D99FF;
+    --blue-light: #CFEBFF;
+    --blue-dark: #0A7ACC;
+    --rounded: .25rem;
+    --rounded-md: .5rem;
+}
+
+.contact-title {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.contact-description {
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.form-group p {
+    text-align: center;
+
+}
+.form-group textarea{
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #FDEBD0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+input,
+textarea {
+    margin: 5px auto;
+    width: 100%;
+    padding: .75rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: var(--rounded);
+    border: 1px solid #bbb;
+}
+
+.btn-submit {
+    width: 50%;
+    padding: 1rem 2rem;
+    border-radius: var(--rounded);
+    background-color: var(--blue);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.btn-submit:hover {
+    background-color:#da512a;
+}
+
+.form-container h1{
+    font-size: 50px;
+    margin: 10px 0 10px;
+    line-height: 60px;
+}
+
+
+.proceed-btn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 28px;
+    border: none;
+    font-family: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+ }
+ 
+ .proceed-btn:hover {
+    background-color: #000000;
+    color: white;
+ }
+
+  
+
+
+
+
